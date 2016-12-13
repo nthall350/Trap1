@@ -10,7 +10,7 @@ app.listen(process.env.PORT || 5000);
 //
 // Config.keys uses environment variables so sensitive info is not in the repo.
 var config = {
-    me: 'nathantrap1', // The authorized account with a list to retweet.
+    me: 'nthall350', // The authorized account with a list to retweet.
     myList: 'RT', // The list we want to retweet.
     regexFilter: '', // Accept only tweets matching this regex pattern.
     regexReject: 'RT|@|http|https', // AND reject any tweets matching this regex pattern.
